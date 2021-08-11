@@ -5,13 +5,7 @@ using UnityEngine;
 public class turretRotate : MonoBehaviour
 {
     public float turnSpeed = 840f;
-    // Use this for initialization
-    void Start()
-    {
-        a = true;
-    }
 
-    // Update is called once per frame
     void Update()
     {
         Debug.Log("Rotate_X = " + transform.rotation.x);

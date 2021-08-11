@@ -6,7 +6,7 @@ public class tankMovement : MonoBehaviour
 {
     public float moveSpeed = 100f;
     public float turnSpeed = 840f;
-    private float tempData = 500f;
+    //private float tempData = 500f;
 
     // Use this for initialization
     void Start()
